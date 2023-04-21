@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+.botao{
+  background: linear-gradient(#7030ff, #4c08e2);
+  padding: 20px 40px;
+  border-radius: 5px;
+  color:#dcdddf ;
+  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif; 
+  font-weight: 600;
+  font-size: 24px;
+  justify-self: self-start;
+}
+
+.texto-poppins{
+  font-size: 64px ;
+  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  max-width: 13ch;
+  color:#ffffff;
+}
+
+.texto-poppins-preto{
+  color:#0e0e0e; 
+  margin: 130px 0px;
+  padding-left: 90px;
+}
+
+.texto-poppins2{
+  font-size: 48px ;
+  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #f7f7f7;
+}
+
+.texto-poppins3{
+  font-size: 32px ;
+  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+
+.texto-poppins4{
+  font-size: 24px ;
+  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #b2b2b2;
+  max-width: 40ch;
+}
+
+.texto-poppins5{
+  font-size: 20px ;
+  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.texto-roboto{
+  font-size: 20px ;
+  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  color:#404040;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #171718;
+  position: relative;
+}
+
+.grid-2{
+  display: grid;
+  align-content: center;
+  justify-self: center;
+  height: 656px;
+  gap: 40px;
+}
+
+.img-1{
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 750px;
+  position: absolute;
+}
+
+.img-2{
+  border-radius: 5px;
+  width: 408px;
+  height: 272px;
+}
+
+.produtos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
