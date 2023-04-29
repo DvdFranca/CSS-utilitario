@@ -7,120 +7,237 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+
 li {
-  list-style: none;
-  display: inline;
+list-style: none;
+display: inline;
 }
 
 a{
-  text-decoration: none;
-  padding: 20px 40px;
+text-decoration: none;
+}
+
+.link{
+text-decoration: none;
+padding: 20px 40px;
+font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif; 
+font-weight: 600;
+padding: 0;
+color: #7030ff;
+}
+
+.link::after{
+content: "";
+display: block;
+width: 181px;
+height: 3px;
+background: #7030ff;
 }
 
 .botao{
-  background: linear-gradient(#7030ff, #4c08e2);
-  padding: 20px 40px;
-  border-radius: 5px;
-  color:#dcdddf ;
-  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif; 
-  font-weight: 600;
-  font-size: 24px;
-  justify-self: self-start;
+background: linear-gradient(#7030ff, #4c08e2);
+padding: 20px 40px;
+border-radius: 5px;
+color:#dcdddf ;
+font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif; 
+font-weight: 600;
+font-size: 24px;
+justify-self: self-start;
+}
+
+.botao:hover{
+color: #18004e;
+background: #3700b0;
 }
 
 .texto-poppins{
-  font-size: 64px ;
-  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  max-width: 13ch;
-  color:#ffffff;
+font-size: 64px ;
+font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 600;
+line-height: 72px;
+color:#ffffff;
 }
 
 .texto-poppins-preto{
-  color:#0e0e0e; 
-  margin: 130px 0px;
-  padding-left: 90px;
+color:#0e0e0e; 
+margin: 130px 0px;
+padding-left: 90px;
+}
+
+.texto-poppins::after{
+content: "";
+display: inline-block;
+width: 8px;
+height: 8px;
+background: #7030ff;
+border-radius: 50%;
 }
 
 .texto-poppins2{
-  font-size: 48px ;
-  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #f7f7f7;
+font-size: 48px ;
+font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #f7f7f7;
 }
 
 .texto-poppins3{
-  font-size: 32px ;
-  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #000000;
+font-size: 32px ;
+font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #000000;
+padding:24px 15px;
+position: relative;
 }
 
 .texto-poppins4{
-  font-size: 24px ;
-  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #b2b2b2;
-  max-width: 40ch;
+font-size: 24px ;
+font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #b2b2b2;
+max-width: 40ch;
 }
 
 .texto-poppins5{
-  font-size: 20px ;
-  font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #ffffff;
+font-size: 20px ;
+font-family: 'Fira Sans', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: #ffffff;
+}
+
+.texto-poppins6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+color: #ededed;
 }
 
 .texto-roboto{
-  font-size: 20px ;
-  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  line-height: 40px;
-  color:#404040;
+font-size: 20px ;
+font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 500;
+line-height: 40px;
+color:#404040;
+padding-left:15px;
 }
 
+.texto-roboto2{
+font-size: 24px ;
+font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+font-weight: 400;
+line-height: 32px;
+color:#9C9C9C;
+}
+
+.texto-merriwearther{
+font-family: 'Merriweather', serif;
+font-style: italic;
+font-size: 36px;
+line-height: 50px;
+color: #ffffff;
+display: inline-block;
+padding-left: 30px;
+position: relative;
+}
 .flex{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #000000;
-  margin: 0 auto;
+display: flex;
+align-items: center;
+ justify-content: space-between;
+background-color: #000000;
+margin: 0 auto;
+padding: 0 100px;
 }
 
 .grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  align-items: center;
-  background-color: #171718;
-  position: relative;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0 auto;
+align-items: center;
+background-color: #171718;
+position: relative;
 }
 
 .grid-2{
+padding-left: 140px;
+display: grid;
+align-content: center;
+height: 656px;
+gap: 40px;
+}
+
+.grid-3{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 180px auto;
+align-items: center;
+background-color: #171718;
+}
+
+.grid-4{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+row-gap: 80px;
+}
+
+.grid-5{
   display: grid;
-  align-content: center;
-  justify-self: center;
-  height: 656px;
-  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin: 180px auto;
+  align-items: center;
+  background: linear-gradient(#5615e5 ,#3800b4);
 }
 
 .img-1{
-  border-radius: 5px;
-  position: absolute;
-  top: 50px;
-  left: 750px;
-  position: absolute;
+border-radius: 5px;
+position: absolute;
+top: 50px;
+left: 750px;
+position: absolute;
 }
 
 .img-2{
-  border-radius: 5px;
-  width: 408px;
-  height: 272px;
+border-radius: 5px;
+width: 408px;
+height: 272px;
 }
 
 .produtos{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+justify-items: center;
+}
+
+.texto-poppins3::after{
+content: "";
+display: block;
+width: 9px;
+height: 10px;
+background: url(icones/Rectangle\ 9.svg) no-repeat;
+position: absolute;
+top: 36px;
+left: 0px;
+}
+
+.texto-merriwearther::before{
+  content: url(icones/aspas.svg);
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: -1%;
+  transform: translateY(-50%);
+}
+
+.texto-merriwearther::after{
+  content: url(icones/fecha-aspas.svg); 
+  display: block;
+  position: absolute;
+  top: 97%;
+  left: 88%;
+  transform: translateY(-50%); 
 }
